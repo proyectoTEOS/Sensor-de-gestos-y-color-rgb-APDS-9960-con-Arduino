@@ -3,7 +3,7 @@ En esta entrada usaremos el sensor de gestos para detectar 4 movimientos con la 
 
 ### Requisitos
 - Tener el IDE de [Arduino](https://www.arduino.cc/en/Main/Software) (o el de tu preferencia) con la versión más actual
-- Contar con las librería [Adafruit APDS9960](https://github.com/adafruit/Adafruit_APDS9960)
+- Contar con la librería [Adafruit APDS9960](https://github.com/adafruit/Adafruit_APDS9960)
 - Tener el material para hacer el proyecto
 
 ### Código
@@ -26,7 +26,7 @@ una vista previa aquí abajo.
 
 const int intervalT = 1500;
 unsigned long previousMillisT, currentMillisT;
-boolean statusDelayT = true;
+bool statusDelayT = true;
 uint8_t gestureT;
 
 Adafruit_APDS9960 gestureSensorT;
